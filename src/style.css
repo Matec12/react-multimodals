@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: Lato;
+}
+.button,
+.icon {
+  display: inline-block;
+}
+h1{ color:rgb(6, 6, 36);
+background:rgb(182, 196, 199);
+padding:1rem;}
+a {
+  padding: 1rem;
+  background-color: rgb(130, 180, 192);
+  border-radius: 6px;
+  border: 1px solid rgb(252, 254, 255);
+  margin: 0.5rem;
+  color:black;
+}
+a:hover {
+  cursor: pointer;
+  background: rgb(109, 129, 146);
+}
+
+.ReactModal__Overlay{
+  backdrop-filter: blur(.4rem) grayscale(100%);
+  background: rgba(100,100,100,0.7)!important;
+}
